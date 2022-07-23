@@ -12,14 +12,20 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.bayarsahintekin.baycall.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
+        android:id="@+id/navigation_contacts"
+        android:name="com.bayarsahintekin.baycall.ui.contacts.ContactsFragment"
+        android:label="@string/contacts"
         tools:layout="@layout/fragment_dashboard" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.bayarsahintekin.baycall.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
+        android:id="@+id/navigation_recent"
+        android:name="com.bayarsahintekin.baycall.ui.recent.RecentFragment"
+        android:label="@string/last_calls"
+        tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.bayarsahintekin.baycall.ui.profile.ProfileFragment"
+        android:label="@string/profile"
         tools:layout="@layout/fragment_notifications" />
 </navigation>
